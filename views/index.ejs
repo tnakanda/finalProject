@@ -10,7 +10,7 @@
     />
     <!--In doc styling-->
     <style>
-        body {background-image: url("../alinea.jpeg");}
+        body {background-image: url("images/alinea.jpeg");}
     </style>
     <script>
         addEventListener("load", function () {
@@ -81,7 +81,7 @@
     <div class="w3layouts-banner-layer">
         <!-- title -->
         <div class="title text-center">
-            <h1 class="title-head text-center">Happy Belly Inc.</h1>
+            <h1 class="title-head text-center">Manic Munching Madness</h1>
         </div>
         <!-- //title -->
         <div class="container">
@@ -127,7 +127,7 @@
                 <!-- social icons -->
                 <div class="w3ls-social-icons">
                     <p>
-                        <span></span>Stay in touch
+                        <span></span>Stay posted
                         <span></span>
                     </p>
                     <ul class="icon-links">
@@ -144,8 +144,8 @@
                         </li>
                         -->
                         <li>
-                            <a href="#">
-                                <span class="fa fa-linkedin"></span>
+                            <a href="https://www.zagat.com/new-york-city">
+                                <span class="fa fa-google"></span>
                             </a>
                         </li>
                         <!--
@@ -166,15 +166,15 @@
                 <ul class="restaurants">
                     <% for(var i=0; i<restaurants.length; i++) {%>
                     <li class="restaurant">
-                        <span><%= restaurants[i]._id %></span>
-                        <span><%= restaurants[i].food %></span>
-                        <span><%= restaurants[i].decor %></span>
-                        <span><%= restaurants[i].service%></span>
-                        <span><%= restaurants[i].michelin %></span>
+                        <span>Name: <%= restaurants[i]._id %> || </span>
+                        <span>Food Score: <%= restaurants[i].food %> || </span>
+                        <span>Decor Score: <%= restaurants[i].decor %> || </span>
+                        <span>Service Score: <%= restaurants[i].service%> ||</span>
+                        <span>Michelin Stars: <%= restaurants[i].michelin %></span>
                     </li>
                     <% } %>
                 </ul>
-                <h7>Stay tuned until graduation</h7>
+                <h3>Stay tuned until graduation</h3>
                 <div class="demo2"></div>
             </div>
             <!-- //right section -->
