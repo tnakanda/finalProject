@@ -236,15 +236,18 @@ body {
 
 
 .restaurant {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
+    color: white;
 }
 
 .restaurant > span:first-child {
-    font-weight: bold
+    font-weight: bold;
+    color: white;
 }
 
 .restaurant > span:first-child:after {
-    content:':'
+    content:':';
+    color:white;
 }
 
 /*-- banner --*/
